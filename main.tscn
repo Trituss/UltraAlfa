@@ -1,3 +1,10 @@
 [gd_scene format=3 uid="uid://iqi0violjxmi"]
 
 [node name="Main" type="Node2D"]
+
+[node name="Play" type="Button" parent="."]
+offset_left = 205.0
+offset_top = 83.0
+offset_right = 377.0
+offset_bottom = 189.0
+text = "Play"
