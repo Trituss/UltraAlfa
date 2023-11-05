@@ -98,7 +98,7 @@ animations = [{
 
 [sub_resource type="Animation" id="Animation_vmabe"]
 resource_name = "Idle"
-length = 1.4
+length = 1.32
 loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
