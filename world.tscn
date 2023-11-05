@@ -11,7 +11,7 @@ size = Vector2(171.25, 640)
 [node name="World" type="Node2D"]
 
 [node name="player" parent="." instance=ExtResource("1_wxp8t")]
-position = Vector2(573, 256)
+position = Vector2(575, 301)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
