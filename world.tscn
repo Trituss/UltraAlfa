@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://by32wkym15osc"]
+
+[node name="World" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 190.0
+offset_top = 103.0
+offset_right = 330.0
+offset_bottom = 129.0
+scale = Vector2(2.28879, 2.17581)
+text = "Trituss Was Here¡¡"
