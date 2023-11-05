@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://ho0emxnh0lic"]
+
+[ext_resource type="Script" path="res://background.gd" id="1_cem7b"]
+[ext_resource type="Texture2D" uid="uid://i8xkiqaistxy" path="res://Tiles/background.png" id="1_fvmx2"]
+
+[node name="BG" type="ParallaxBackground"]
+script = ExtResource("1_cem7b")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+
+[node name="Background" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(577, 323.5)
+scale = Vector2(2.05714, 2.37132)
+texture = ExtResource("1_fvmx2")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
